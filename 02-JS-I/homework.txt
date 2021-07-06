@@ -1,0 +1,12 @@
+1- Variable: Es la manera en como almacenamos el valor de algo, 
+este valor ya nombrado, lo podremos llamar más adelante y el programa lo identificará. Es como una caja a la que le das un nombre y en esa caja almacenas algo, que luego lo necesitarás.
+
+2- Strings: son tipos de datos que se utilizan para almacenar textos o caracteres, estos textos siempre deben ir entre comillas simples o dobles. Es decir, los Strings solo reciben las teclas del teclado alfanumérico, siempre y cuando estén entre comillas.
+
+3- Funciones: Son objetos invocables, con un conjunto de instrucciones que realizan una tarea o calculan un valor. Para que estos objetos se puedan invocar debe tener una entrada de instrucción y una salida como respuesta. 
+Las funciones deben tener un argumento, para que pueda reconocerse dentro de la función; un argumento es entonces una variable que necesita la función para poder realizar el procedimiento.
+Para que esta instrucción tenga una salida, debe retornar en una respuesta, el return es una declaración con la que los datos pueden salir de la función. Es la puerta de salida.
+
+4- Declaraciones if: Es una operador de control de flujo que utilizaremos para tomar decisiones, éste va dentro de la función, lo que hace es verificar la instrucción que ha recibido, la analiza si esta es verdadera o falsa, en caso de que sea verdadera, realiza el cálculo o la instrucción, en caso de que sea falsa, retornará otra respuesta o instrucción diferente.
+
+5- Valores booleanos: son valores que le asignamos a una variable true o false, esto nos ayuda a almacenar información como si cumple o no cumple, es verdadero o es falso, sí o no, existe o no existe, está o no está, es o no es.
