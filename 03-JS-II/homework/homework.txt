@@ -1,0 +1,14 @@
+1- Bucle for: es un ciclo que se repite las veces que sean necesarias hasta que la última condición la evalúe como false
+
+    for(var i = 0; i < numero;i++)
+    {
+        //condición;
+    }
+     primero ejecutamos la expresión inicial (var i = 0); luego se evalúa la expresión condicional (i < numero), donde si se cumple se ejecutaría las instrucciones dentro del bucle, en caso de que sea false, el ciclo o bucle termina, en caso de que sea verdadera, sigue leyendo la última expresión de actualización (i++)
+
+2- Operadores lógicos:
+    Los operadores ayudan a que dentro de los statements se pueda evaluar más condiciones y no sólo una (si son verdaderas o no):
+    - &&: (AND) quiere decir que para un conjunto de expresiones será  verdadero si y solo si cada una de las expresiones es verdadera.
+    - ||: (OR) quiere decir que para varias expresiones se devolverá verdadero si una de las expresiones es verdadera o todas lo son.
+    - !:(NOT) es una negación, es decir, que lo que hará es devolver el valor booleano opuesto de lo que se expresó.
+
