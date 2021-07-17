@@ -1,0 +1,3 @@
+Arrays
+Son tipos lista de elementos que albergan todo tipo de datos (números, strings, booleanos, etc). Los Arrays o arreglos son como contenedores con un índice que inicia en 0, y a medida que se van guardando nuevos elementos, el índice también va aumentando.
+Existen métodos que ayudan a los Arrays a llamar lo que hay guardado en cada uno de sus contenedores, como por ejemplo, .length que cuenta la cantidad de contenedores que tiene el array, .push agrega un nuevo elemento al final de la matriz (array) incrementándola en 1, .pop elimina el último elemento de la matriz disminuyendo los contenedores o su longitud en 1, .unshift agrega un nuevo elemento al inicio de la matriz (array) incrementándose en 1, .shift elimina el primer elemento de la matriz disminuyendo en 1.
