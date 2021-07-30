@@ -1,0 +1,12 @@
+1- Objetos: En los Objetos podemos almacenar muchos valores y acceder a ellos de una forma fácil. Los objetos tienen propiedades y cada propiedad tiene un valor.
+2- Propiedades: Una propiedad es una asociación entre el nombre (clave) y un valor, por ejemplo: nombre:Aura, la propiedad es el nombre y el valor de esa clave es Aura.
+3- Métodos: El valor de una propiedad puede ser también una función, estas funciones dentro de un objeto se llama método. Por lo que .length, .pop, .push, son métodos que hemos llamado de una función, así que para llamar un método utilizaremos una notación de puntos.
+4- Bucle for...in: Es un ciclo que repite la sección del código dentro de las llaves {}. Comienza igual a la que hemos visto, pero con una diferencia en su sintaxis, dentro de sus paréntesis declararemos la variable, agregamos la palabra clave in y como tercero agregamos el nombre del objeto. Lo que hace el ciclo es recorrer cada clave del objeto y finaliza cuando haya leído o iterado cada una de las claves dentro del objeto.
+5- Notación de puntos vs notación de corchetes: ambos conceptos se utilizan para acceder a la propiedad de un objeto, con la notación de puntos es más fácil llamar la propiedad pero siempre y cuando ésta se conozca; la notación de corchetes se utiliza en cambio cuando no se conoce qué propiedades tiene el objeto. Ejemplo: 
+var Objeto =
+{
+    propiedad:'Hola',
+    despedida:'Adiós'
+};
+console.log(propiedad);
+console.log(Objeto[propiedad]);
