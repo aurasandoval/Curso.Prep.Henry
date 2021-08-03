@@ -1,0 +1,3 @@
+Callbacks: Es una función que recibe como argumento otra función y la ejecuta. Cuando le pasamos a una función un callback solo le pasamos la definición de esa función y no se ejecuta en el parámetro. De esta manera, la función que tiene a la otra función (callback) puede ejecutarla en cualquier momento.
+
+Los Callbacks pueden ser llamadas por su definición o de forma anónima. Para hacerlo como esta última, se escribe la función en el momento dentro de la función contenedora. Los Callbacks ayudan a no repetir tanto código, conseguir funciones más específicas y a mejorar el nivel de lectura del código para todos los programadores.
