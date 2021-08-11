@@ -1,0 +1,148 @@
+@font-face {
+    font-family: architects;
+    src: url(ArchitectsDaughter-Regular.ttf);
+}
+
+@font-face {
+    font-family: dancing;
+    src: url(DancingScript-VariableFont_wght.ttf);
+}
+
+body {
+   background-color: dimgray;
+}
+
+.divContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('triangulo.png');
+    margin: 40px 40px;
+    padding: 20px;
+    border: 10px groove brown;
+    outline: 5px groove lightpink;
+}
+
+.divTitulo {
+    min-width: 90%;
+    max-width: 100%;
+    background-color: indianred;
+    flex: 1;
+    padding: 30px;
+    order: 1;
+}
+
+.tituloclassDiv {
+    width: 100%;
+    text-align: center; 
+    order: 1; 
+}
+
+#nombreId {
+    font-size: 60px;
+    font-family: 'dancing';
+    text-align: left;
+    color: pink;
+}
+
+#ocupacionId {
+    font-size: 30px;
+    font-family: 'architects';
+    color: maroon;
+}
+
+.imgDiv {
+    flex: 1;
+    padding: 5px;
+    display: flex;
+    min-width: 200px;
+    max-width: 300px;
+    order: 5;
+    margin: auto;
+    background-color: bisque;
+    border-radius: 2%;
+    text-align: right;
+}
+
+.imgDiv img {
+    width: 90%;
+    margin-left: 18px;
+}
+
+.divPersonal {
+    min-width: 90%;
+    max-width: 100%;
+    background-color: pink;
+    flex: 1;
+    padding: 30px;
+    order: 2;
+}
+
+.divProfesional {
+    min-width: 90%;
+    max-width: 100%;
+    background-color:lightsalmon;
+    flex: 1;
+    padding: 30px;
+    order: 3;
+}
+
+.divExpectativa {
+    min-width: 90%;
+    max-width: 100%;
+    background-color: pink;
+    flex: 1;
+    padding: 30px;
+    order: 4;
+}
+
+.divPersonal span {
+    font-size: 60px;
+    color: brown;
+    font-family: 'dancing';
+}
+
+#listaPersonal {
+    font-size: 30px;
+    list-style: none;
+    font-family: 'architects';
+    color: rgb(14, 29, 29);
+}
+.parrafoDescripcionPersonal {
+    text-align: justify;
+    font-size: 24px;  
+}
+.divProfesional span {
+    font-size: 60px;
+    color: brown;
+    font-family: 'dancing';
+}
+
+#listaProfesional {
+    font-size: 24px;
+    list-style: none;
+    font-family: 'architects';
+    color: rgb(14, 29, 29);
+}
+
+#experienciaId {
+    font-size: 24px;
+    list-style: none;
+    font-family: 'architects';
+    color: rgb(14, 29, 29);
+}
+
+.divExpectativa span {
+    font-size: 60px;
+    color: brown;
+    font-family: 'dancing';
+}
+
+#parrafoExpectativa {
+    font-size: 24px;
+    font-family: 'architects';
+    color: rgb(14, 29, 29);
+    text-align: justify;
+}
+
