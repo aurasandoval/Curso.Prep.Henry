@@ -67,6 +67,12 @@ function filter(array) {
   return nuevoArray;
 }
 
+//let nuevoArray = array.filter(function(elemento){
+// return elemento [0].toLowerCase() === "a"
+//})
+//return nuevo Array;
+
+
 // No modificar nada debajo de esta línea
 // --------------------------------
 

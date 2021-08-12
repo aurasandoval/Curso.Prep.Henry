@@ -39,12 +39,13 @@ function agregarStringInvertida() {
   // Pista: Necesitarás usar "this" dentro de "reverse"
   String.prototype.reverse = function ()
   {
-    var stringInv = '';
-    for(var i = this.length - 1;i >= 0;i--)
-    {
-      stringInv = stringInv + this.charAt(i);
-    }
-    return stringInv;
+    //var stringInv = '';
+    //for(var i = this.length - 1;i >= 0;i--)
+    //{
+      //stringInv = stringInv + this.charAt(i);
+    //}
+    //return stringInv;
+    return this.split('').reverse().join('')
   }
 }
 
